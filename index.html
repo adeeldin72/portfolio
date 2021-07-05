@@ -56,10 +56,10 @@
 
     <main class="wrapper">
 
-        <section class="summary">
+        <div class="summary" tabindex="0" data-aos="zoom-in" data-aos-duration="2000">
             <div>
                 <h3>Hello, Im Adeel Din!</h3>
-                <P>Passionate web developer able to design and build
+                <P>Passionate web developer from Toronto, ON, able to design and build
                     attractive, responsive, and accessible websites following best practices. Sometimes I like to
                     design
                     things.</P>
@@ -67,7 +67,7 @@
                 <p class="heartBeat"> <i class="far fa-arrow-alt-circle-down"></i>
                 </p>
             </div>
-        </section>
+        </div>
         <section class="projects">
             <div class="projectHeading">
                 <h3>Projects I've Worked On</h3>
@@ -167,8 +167,9 @@
                         <img src="./images/portfolioLive/sanctuaryHelper.gif" alt="">
                         <div class="innerProjectContainer">
                             <p class="projectTitle">Sanctuary Helper</p>
-                            <p class="elementsUsed">html css js</p>
-                            <p class="projectDescription">A no JS site built in class to show we can build a website
+                            <p class="elementsUsed">html css</p>
+                            <p class="projectDescription">An html and css only site built in class to show we can build
+                                a website
                                 similar to a provided client design.</p>
                             <div class="buttonForProjects">
                                 <a href="https://adeeldin72.github.io/adeel-din-project1/index.html"
@@ -226,7 +227,7 @@
     <footer>
         <p>Designed and Developed by Adeel Din</p>
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
@@ -244,7 +245,7 @@
             // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
             offset: 120, // offset (in px) from the original trigger point
             delay: 0, // values from 0 to 3000, with step 50ms
-            duration: 400, // values from 0 to 3000, with step 50ms
+            duration: 500, // values from 0 to 3000, with step 50ms
             easing: 'ease', // default easing for AOS animations
             once: false, // whether animation should happen only once - while scrolling down
             mirror: false, // whether elements should animate out while scrolling past them
