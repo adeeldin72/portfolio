@@ -1,18 +1,21 @@
+AOS.init;
+
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () { scrollFunction() };
 let headPosition = 0, brainPosition = 0, skullPosition = 0, currentScroll = 0;
 
 function scrollFunction() {
 
-
+    console.log(document.documentElement.scrollTop);
 
 
     if (document.documentElement.scrollTop > currentScroll || document.body.scrollTop > currentScroll) {
 
+
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             document.querySelector('.titleSubHeading').style.display = 'block';
         }
-        if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+        if (document.body.scrollTop > 1100 || document.documentElement.scrollTop > 1100) {
             document.querySelector('.headContainer').style.position = 'fixed';
             document.querySelector('.headContainer').style.top = '5%';
 
@@ -21,14 +24,14 @@ function scrollFunction() {
             document.querySelector('.headContainer').style.top = 'auto';
         }
 
-        if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
             if (headPosition <= 250) {
                 headPosition += 5;
                 console.log(headPosition);
             }
         } else { }
 
-        if (document.body.scrollTop > 1100 || document.documentElement.scrollTop > 1100) {
+        if (document.body.scrollTop > 1350 || document.documentElement.scrollTop > 1350) {
 
             if (skullPosition <= 235) {
                 skullPosition += 5;
@@ -36,7 +39,7 @@ function scrollFunction() {
             }
         } else { }
 
-        if (document.body.scrollTop > 1400 || document.documentElement.scrollTop > 1400) {
+        if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500) {
 
             if (brainPosition <= 220) {
                 brainPosition += 5;
@@ -44,7 +47,7 @@ function scrollFunction() {
             }
         } else { }
 
-    } else if (((document.body.scrollTop !== 0) && (document.body.scrollTop < 1500)) || (((document.documentElement.scrollTop !== 0) && (document.documentElement.scrollTop < 1500)))) {
+    } else if (((document.body.scrollTop !== 0) && (document.body.scrollTop < 1600)) || (((document.documentElement.scrollTop !== 0) && (document.documentElement.scrollTop < 1600)))) {
 
         console.log(document.documentElement.scrollTop)
         if (brainPosition > 0) {
@@ -65,7 +68,7 @@ function scrollFunction() {
         }
 
 
-        if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 750) {
+        if (document.body.scrollTop > 1100 || document.documentElement.scrollTop > 1100) {
 
         } else {
             document.querySelector('.headContainer').style.position = 'absolute';
@@ -116,3 +119,7 @@ function displayMain() {
     document.querySelector('.summary').style.display = "block";
 }
 
+
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}

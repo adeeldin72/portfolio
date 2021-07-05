@@ -396,11 +396,63 @@ h3 {
     }
 }
 
+header {
+    margin: 0 auto;
+}
 
 .summary {
     margin-top: 100vh;
+    margin-bottom: 150px;
+    border: 4px pink solid;
+    width: 90%;
+    padding: 25px;
+    text-align: center;
     -webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.projectHeading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.heartBeat {
+    color: pink;
+    font-size: 2rem;
+    animation: heartbeat 1s infinite;
+}
+
+.heartBeat2 {
+    display: inline-block;
+    color: white;
+    font-size: 2.5rem;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(.75);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(.75);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(.75);
+    }
+
+    100% {
+        transform: scale(.75);
+    }
 }
 
 h2 {
@@ -562,7 +614,7 @@ footer {
 
 main {
     /* display: none; */
-    min-height: 200vh;
+    min-height: 250vh;
 }
 
 .innerContact {
@@ -636,17 +688,24 @@ form {
 }
 
 .projectDiv div {
-    padding: 25px;
-    width: 100%;
     background: #FFE2E2;
 }
 
-.projectDivReverse div {
+.innerProjectContainer {
+    overflow-y: auto;
+    position: relative;
     padding: 25px;
     width: 100%;
+}
+
+.projectDivReverse div {
+
     background: #CBF1F5;
 
 }
+
+
+
 
 
 .projectDivReverse {
@@ -669,27 +728,38 @@ form {
     color: white;
     text-transform: uppercase;
     font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+.elementsUsed {
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color: #F6F6F6;
+    font-size: 1.25rem;
+    letter-spacing: 2.5px;
 }
 
 .projectDiv a,
 .projectDivReverse a {
     background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
     font-family: Arial;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1rem;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     transition: all 0.3s;
     text-transform: uppercase;
 }
+
+.projectDiv a {
+    background: #FFB6B9;
+}
+
+
 
 .projectDiv a:hover,
 .projectDivReverse a:hover {
@@ -702,6 +772,16 @@ form {
 .buttonForProjects {
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+
+}
+
+.projectDescription {
+    color: #393E46;
+    font-size: 1.5rem;
 }
 
 @keyframes animatedBackground {
@@ -719,4 +799,12 @@ form {
 .projectDivReverse a:active {
     transform: scale(0.75);
 
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+    .projects {
+        width: 90%;
+    }
 }

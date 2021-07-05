@@ -16,9 +16,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+
 
     <div class="heroParallax">
         <div class="heroImage"></div>
@@ -29,8 +35,8 @@
 
 
         <div class="titleContainer">
-            <h1 class="title">Adeel Din</h1>
-
+            <h1 class="title">Adeel Din <span class="heartBeat2"><i class="far fa-arrow-alt-circle-down"></i>
+                    </p></span></h1>
         </div>
         <div class="titleSubHeading">
             <h2>Junior <br />Front-End <br />Developer</h2>
@@ -58,88 +64,117 @@
                     design
                     things.</P>
                 <p>Currently looking for full-time employment.</p>
+                <p class="heartBeat"> <i class="far fa-arrow-alt-circle-down"></i>
+                </p>
             </div>
         </section>
         <section class="projects">
+            <div class="projectHeading">
+                <h3>Projects I've Worked On</h3>
+                <hr>
+            </div>
             <ul>
-                <li>
+                <li data-aos="fade-right">
                     <div class="projectDiv">
                         <img src="./images/portfolioLive/plusposters.gif" alt="">
-                        <div>
+                        <div class="innerProjectContainer">
                             <p class="projectTitle">Posters<span class="sr-only">Plus</span> +</p>
-                            <p></p>
+                            <p class="elementsUsed">React html css js paypal firebase</p>
+                            <p class="projectDescription">An imitation E-commerce site to purchase posters. Users can
+                                add posters of different
+                                sizes to cart, see detailed info and checkout with PayPal.</p>
                             <div class="buttonForProjects">
-                                <a href="">View Live</a>
-                                <a href="">View Github</a>
+                                <a href="https://laughing-wing-13ba8b.netlify.app/" target="_blank">View Live</a>
+                                <a href="https://github.com/adeeldin72/adeel-din-project3" target="_blank">View
+                                    Github</a>
                             </div>
                         </div>
                     </div>
                 </li>
-
-                <li>
+                <li data-aos="fade-left">
                     <div class="projectDivReverse">
-                        <img src="./images/portfolioLive/bookTimes.gif" alt="">
-                        <div>
-                            <p class="projectTitle">Book Times</p>
-                            <p></p>
-                            <div class="buttonForProjects">
-                                <a href="">View Live</a>
-                                <a href="">View Github</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="projectDiv">
                         <img src="./images/portfolioLive/animeDot.gif" alt="">
-                        <div>
+                        <div class="innerProjectContainer">
                             <p class="projectTitle">Anime <span class="sr-only">Dot</span><i
                                     class="far fa-dot-circle"></i></p>
-                            <p></p>
+                            <p class="elementsUsed">html css js api</p>
+                            <p class="projectDescription">An API is used to filter content from MyAnimeList. Users chose
+                                a genre and anime of that
+                                genre gets displayed on the screen. Clicking on the image takes the user to the page.
+                            </p>
                             <div class="buttonForProjects">
-                                <a href="">View Live</a>
-                                <a href="">View Github</a>
+                                <a href="https://adeeldin72.github.io/animedot/" target="_blank">View Live</a>
+                                <a href="https://github.com/adeeldin72/animedot" target="_blank">View Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li data-aos="fade-right">
+                    <div class="projectDiv">
+                        <img src="./images/portfolioLive/bookTimes.gif" alt="">
+                        <div class="innerProjectContainer">
+                            <p class="projectTitle">Book Times</p>
+                            <p class="elementsUsed">html css js api firebase</p>
+                            <p class="projectDescription">Users choose a genre and the page will display the most
+                                popular books in that genre from
+                                the NYT API. Users can also store books on their bookshelf seen at the bottom of the
+                                page.</p>
+                            <div class="buttonForProjects">
+                                <a href="https://adeeldin.github.io/adeel-din-barish-bozkurt-project-2/"
+                                    target="_blank">View Live</a>
+                                <a href="https://github.com/adeeldin/adeel-din-barish-bozkurt-project-2"
+                                    target="_blank">View Github</a>
                             </div>
                         </div>
                     </div>
                 </li>
 
-                <li>
+                <li data-aos="fade-left">
                     <div class="projectDivReverse">
-                        <img src="./images/portfolioLive/bookOrMovie.gif" alt="">
-                        <div>
-                            <p class="projectTitle">Book Or Movie</p>
-                            <p></p>
-                            <div class="buttonForProjects">
-                                <a href="">View Live</a>
-                                <a href="">View Github</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="projectDiv">
                         <img src="./images/portfolioLive/pomodoroTimer.gif" alt="">
-                        <div>
+                        <div class="innerProjectContainer">
                             <p class="projectTitle">The Pomodoro Timer</p>
-                            <p></p>
+                            <p class="elementsUsed">html css js</p>
+                            <p class="projectDescription">Users can use this site to run a Pomodoro Timer to get work
+                                done. They can also set tasks and remove them when completed.</p>
                             <div class="buttonForProjects">
-                                <a href="">View Live</a>
-                                <a href="">View Github</a>
+                                <a href="https://adeeldin72.github.io/pomodoroTimer/" target="_blank">View Live</a>
+                                <a href="https://github.com/adeeldin72/pomodoroTimer" target="_blank">View Github</a>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li>
+
+                <li data-aos="fade-right">
+                    <div class="projectDiv">
+                        <img src="./images/portfolioLive/bookOrMovie.gif" alt="">
+                        <div class="innerProjectContainer">
+                            <p class="projectTitle">Book Or Movie</p>
+                            <p class="elementsUsed">React html css js api firebase</p>
+                            <p class="projectDescription">React group project. This website lets you search a movie and
+                                then determines if the book or movie was rated better by using two APIs.</p>
+                            <div class="buttonForProjects">
+                                <a href="https://youthful-hodgkin-b1fe8f.netlify.app/" target="_blank">View Live</a>
+                                <a href="https://github.com/project4moviebook/movie-or-book" target="_blank">View
+                                    Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li data-aos="fade-left">
                     <div class="projectDivReverse">
                         <img src="./images/portfolioLive/sanctuaryHelper.gif" alt="">
-                        <div>
+                        <div class="innerProjectContainer">
                             <p class="projectTitle">Sanctuary Helper</p>
-                            <p></p>
+                            <p class="elementsUsed">html css js</p>
+                            <p class="projectDescription">A no JS site built in class to show we can build a website
+                                similar to a provided client design.</p>
                             <div class="buttonForProjects">
-                                <a href="">View Live</a>
-                                <a href="">View Github</a>
+                                <a href="https://adeeldin72.github.io/adeel-din-project1/index.html"
+                                    target="_blank">View Live</a>
+                                <a href="https://github.com/adeeldin72/adeel-din-project1" target="_blank">View
+                                    Github</a>
                             </div>
                         </div>
                     </div>
@@ -191,7 +226,34 @@
     <footer>
         <p>Designed and Developed by Adeel Din</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
     <script src="./script.js"></script>
+
 </body>
 
 </html>
