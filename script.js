@@ -37,11 +37,11 @@ if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.u
 
 }
 
-window.addEventListener('resize', function () {
-    if (!isMobile) {
-        window.location.reload();
-    }
-});
+// window.addEventListener('resize', function () {
+//     if (!isMobile) {
+//         window.location.reload();
+//     }
+// });
 
 
 window.onbeforeunload = function () {

@@ -1475,7 +1475,7 @@ ul {
 .innerContent {
     background: white;
     width: 40vw;
-    height: 40vh;
+    height: 30vh;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -1740,6 +1740,13 @@ footer {
     position: relative;
     user-select: none;
     /* z-index: 20; */
+}
+
+.gameInstructions {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-transform: uppercase;
 }
 
 footer p {
