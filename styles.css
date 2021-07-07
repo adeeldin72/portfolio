@@ -426,6 +426,11 @@ body {
 
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 /*  */
 
 /* Hide scrollbar for IE, Edge and Firefox */
