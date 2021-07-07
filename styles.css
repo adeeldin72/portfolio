@@ -1296,6 +1296,7 @@ main {
 .innerContact {
     width: 95%;
     max-height: calc(50vh - 100px);
+    max-height: calc((-webkit-fill-available / 2) - 100px);
     /* background-color: red; */
     margin: 0 auto;
     display: grid;
