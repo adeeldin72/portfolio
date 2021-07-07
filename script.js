@@ -33,7 +33,7 @@ let isMobile = false; //initiate as false
 if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     if (screen.width < 1000 && screen.height < 1000) {
         isMobile = true;
-
+        showTheSinglePage();
     }
 
 }
