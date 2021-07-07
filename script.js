@@ -38,6 +38,11 @@ if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.u
 
 }
 
+if ((window.innerWidth < 768) || (screen.width < 768)) {
+    isMobile = true;
+    showTheSinglePage();
+}
+
 // window.addEventListener('resize', function () {
 //     if (!isMobile) {
 //         window.location.reload();
