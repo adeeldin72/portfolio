@@ -179,7 +179,7 @@ window.onbeforeunload = function () {
 
 // // });
 
-if ((window.innerWidth >= 768) && (screen.width >= 768)) {
+if ((window.innerWidth >= 768) && (screen.width >= 768) && (!isMobile)) {
     display = 0;
     displayPage();
     addEventListener('keydown', (event) => {
