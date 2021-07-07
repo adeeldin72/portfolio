@@ -284,6 +284,7 @@ html {
     width: 100vw;
 
     min-height: 100vh;
+    height: -webkit-fill-available;
     min-height: -webkit-fill-available;
 
 
@@ -300,6 +301,7 @@ html {
     width: 100vw;
 
     height: 100vh;
+    height: -webkit-fill-available;
 
 
     /* position: fixed; */
@@ -314,6 +316,7 @@ html {
     width: 100vw;
 
     height: 100vh;
+    height: -webkit-fill-available;
 
 
     /* position: fixed; */
@@ -349,13 +352,14 @@ h3 {
     min-width: 100vw;
 
     min-height: 100vh;
+    height: -webkit-fill-available;
     min-height: -webkit-fill-available;
 
     max-width: 100vw;
 
 
 
-    /* max-height: 100vh; */
+    /* max-height: 100vh;height: -webkit-fill-available; */
     display: grid;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
@@ -376,11 +380,13 @@ h3 {
     min-width: 100vw;
 
     min-height: 100vh;
+    height: -webkit-fill-available;
     min-height: -webkit-fill-available;
 
     width: 100vw;
 
     height: 100vh;
+    height: -webkit-fill-available;
 
     background-image: url(./images/staticBackground.png);
     background-size: cover;
@@ -394,9 +400,9 @@ h3 {
 
 .currentPageDisplay {
     /* min-width: 100vw;
-    min-height: 100vh;min-height: -webkit-fill-available;
+    min-height: 100vh;height: -webkit-fill-available;min-height: -webkit-fill-available;
     width: 100vw;
-    height: 100vh;
+    height: 100vh;height: -webkit-fill-available;
     position: fixed; */
 
 }
@@ -405,11 +411,13 @@ h3 {
     min-width: 100vw;
 
     min-height: 100vh;
+    height: -webkit-fill-available;
     min-height: -webkit-fill-available;
 
     width: 100vw;
 
     height: 100vh;
+    height: -webkit-fill-available;
 
     position: fixed;
     z-index: 20;
@@ -458,6 +466,7 @@ body {
     min-width: 100vw;
 
     min-height: 100vh;
+    height: -webkit-fill-available;
     min-height: -webkit-fill-available;
 
     max-width: 100vw;
@@ -474,20 +483,20 @@ html,
 body {
     min-width: 100vw !important;
     min-width: -webkit-fill-available !important;
-    ;
+
     min-height: 100vh !important;
     min-height: -webkit-fill-available !important;
-    ;
+
     max-width: 100vw !important;
     max-width: -webkit-fill-available !important;
-    ;
+
     max-height: 100vh !important;
     max-height: -webkit-fill-available !important;
-    ;
+
     /* overflow: hidden; */
 
 
-    ;
+
 
 }
 
@@ -500,12 +509,14 @@ body {
     min-width: 100vw;
 
     min-height: 100vh;
+    height: -webkit-fill-available;
     min-height: -webkit-fill-available;
 
     /* display: none; */
     width: 100vw;
 
     height: 100vh;
+    height: -webkit-fill-available;
 
     background-image: url(./images/static2Background.png);
     background-size: cover;
@@ -529,12 +540,14 @@ body {
     min-width: 100vw;
 
     min-height: 100vh;
+    height: -webkit-fill-available;
     min-height: -webkit-fill-available;
 
 
     width: 100vw;
 
     height: 100vh;
+    height: -webkit-fill-available;
 
     display: grid;
     grid-auto-columns: 1fr;
@@ -659,6 +672,7 @@ a {
 
 
     min-height: 100vh;
+    height: -webkit-fill-available;
     min-height: -webkit-fill-available;
 
 
@@ -668,6 +682,7 @@ a {
 
 
     height: 100vh;
+    height: -webkit-fill-available;
 
 
     background-image: url(./images/page3Back.png);
@@ -680,10 +695,10 @@ a {
 
 /* .innerContainer {
     min-width: 100vw;
-    min-height: 100vh;min-height: -webkit-fill-available;
+    min-height: 100vh;height: -webkit-fill-available;min-height: -webkit-fill-available;
     overflow-y: auto;
     width: 100vw;
-    height: 100vh;
+    height: 100vh;height: -webkit-fill-available;
     display: grid;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
@@ -933,6 +948,7 @@ h3 {
 
 main {
     min-height: 100vh;
+    height: -webkit-fill-available;
     min-height: -webkit-fill-available;
 
 
@@ -1021,6 +1037,7 @@ html {
     min-width: 100vw;
 
     min-height: 100vh;
+    height: -webkit-fill-available;
     min-height: -webkit-fill-available;
 
 
@@ -1635,6 +1652,7 @@ canvas {
     min-width: 100vw;
 
     min-height: 100vh;
+    height: -webkit-fill-available;
     min-height: -webkit-fill-available;
 
 
@@ -1642,6 +1660,7 @@ canvas {
 
 
     height: 100vh;
+    height: -webkit-fill-available;
 
 
     background: black;
@@ -1705,6 +1724,7 @@ canvas {
     max-width: 100vw;
 
     max-height: 100vh;
+    height: -webkit-fill-available;
     display: grid;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
@@ -2089,6 +2109,7 @@ textarea {
         min-width: 100vw;
 
         min-height: 100vh;
+        height: -webkit-fill-available;
         min-height: -webkit-fill-available;
 
 
@@ -2149,12 +2170,14 @@ textarea {
         min-width: 100vw;
 
         min-height: 100vh;
+        height: -webkit-fill-available;
         min-height: -webkit-fill-available;
 
         width: 100vw;
 
 
         height: 100vh;
+        height: -webkit-fill-available;
 
         display: grid;
         grid-auto-columns: 1fr;
@@ -2241,6 +2264,7 @@ textarea {
         min-width: 100vw;
 
         min-height: 100vh;
+        height: -webkit-fill-available;
         min-height: -webkit-fill-available;
 
         /* display: none; */
@@ -2326,6 +2350,7 @@ textarea {
         min-width: 100vw;
 
         min-height: 100vh;
+        height: -webkit-fill-available;
         min-height: -webkit-fill-available;
 
         width: 100vw;
@@ -2384,11 +2409,13 @@ textarea {
         min-width: 100vw;
 
         min-height: 100vh;
+        height: -webkit-fill-available;
         min-height: -webkit-fill-available;
 
         width: 100vw;
 
         height: 100vh;
+        height: -webkit-fill-available;
 
         display: grid;
         grid-auto-columns: 1fr;
@@ -2474,6 +2501,7 @@ textarea {
         min-width: 100vw;
 
         min-height: 100vh;
+        height: -webkit-fill-available;
         min-height: -webkit-fill-available;
 
         /* display: none; */
