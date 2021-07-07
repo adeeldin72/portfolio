@@ -16,50 +16,337 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
 <body>
 
 
-    <div class="heroParallax">
+    <!-- <div class="heroParallax">
         <div class="heroImage"></div>
         <div class="hero2Image"></div>
+    </div> -->
+    <div class="loadingGif">
+        <img src="./images/loading.gif" alt="">
+    </div>
+    <div class="currentPageDisplay">
+        <div class="currentPageDots">
+            <ul>
+                <li id="firstPageDot"><i class="fas fa-circle"></i></li>
+                <li id="secondPageDot"><i class="far fa-circle"></i></li>
+                <li id="thirdPageDot"><i class="far fa-circle"></i></li>
+                <li id="fourthPageDot"><i class="far fa-circle"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="displayTabInstructions">
+        <p>Tabbing detected. left and right arrow keys can now be used to navigate site</p>
+    </div>
+    <div class="firstContainer">
+        <header class="container wrapper">
+
+
+            <div class="titleContainer">
+                <h1 class="title">Adeel Din <span class="heartBeat2"><i class="far fa-arrow-alt-circle-down"></i>
+                        </p></span></h1>
+            </div>
+            <div class="titleSubHeading">
+                <h2>Junior <br />Front-End <br />Developer</h2>
+            </div>
+
+
+        </header>
     </div>
 
-    <header class="container wrapper">
+    <div class="secondContainer">
+        <div class="innerContainerSecond">
+            <div class="summary noAnimation" tabindex="0" data-aos="fade-down" data-aos-duration="2000">
+                <div>
+                    <h3>Hello, Im Adeel Din!</h3>
+                    <p>Passionate web developer from Toronto, ON, able to design and build
+                        attractive, responsive, and accessible websites following best practices. Sometimes I like to
+                        design
+                        things.</p>
+                    <p>Currently looking for full-time employment.</p>
+                    <!-- <p class="heartBeat"> <i class="far fa-arrow-alt-circle-down"></i>
+                    </p> -->
+                </div>
+            </div>
 
-
-        <div class="titleContainer">
-            <h1 class="title">Adeel Din <span class="heartBeat2"><i class="far fa-arrow-alt-circle-down"></i>
-                    </p></span></h1>
+            <div class="headContainer">
+                <img src="./images/head2/leftHead.png" alt="" class="head1">
+                <img src="./images/head2/leftSkull.png" alt="" class="head2">
+                <img src="./images/head2/leftBrain.png" alt="" class="head3">
+                <img src="./images/head2/rightBrain.png" alt="" class="head4">
+                <img src="./images/head2/rightSkull.png" alt="" class="head5">
+                <img src="./images/head2/rightHead.png" alt="" class="head6">
+            </div>
         </div>
-        <div class="titleSubHeading">
-            <h2>Junior <br />Front-End <br />Developer</h2>
+    </div>
+
+    <div class="thirdContainer">
+        <div class="currentThirdPageDisplay">
+            <div class="currentThirdPageDots">
+                <ul>
+                    <li tabIndex='0' id="firstThirdPageDot"><i class="fas fa-circle"></i></li>
+                    <li tabIndex='0' id="secondThirdPageDot"><i class="far fa-circle"></i></li>
+                    <li tabIndex='0' id="thirdThirdPageDot"><i class="far fa-circle"></i></li>
+                </ul>
+            </div>
         </div>
 
+        <div class="innerContainerThird wrapper">
 
-    </header>
 
-    <div class="headContainer">
+            <section class="projects">
+                <div class="projectHeading">
+                    <h3>Projects I've Worked On</h3>
+
+                </div>
+
+                <ul class="firstUL" id="firstProjectGroup">
+                    <li data-aos="fade-right">
+                        <div class="projectDiv noAnimation">
+                            <img src="./images/portfolioLive/plusposters.gif" alt="">
+                            <div class="innerProjectContainer">
+                                <p class="projectTitle">Posters<span class="sr-only">Plus</span> +</p>
+                                <p class="elementsUsed">React html css js paypal firebase</p>
+                                <p class="projectDescription">An imitation E-commerce site to purchase posters. Users
+                                    can
+                                    add posters of different
+                                    sizes to cart, see detailed info and checkout with PayPal.</p>
+                                <div class="buttonForProjects">
+                                    <a tabIndex='0' href="https://laughing-wing-13ba8b.netlify.app/"
+                                        target="_blank">View Live</a>
+                                    <a tabIndex='0' href="https://github.com/adeeldin72/adeel-din-project3"
+                                        target="_blank">View
+                                        Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-aos="fade-left">
+                        <div class="projectDivReverse noAnimation">
+                            <img src="./images/portfolioLive/animeDot.gif" alt="">
+                            <div class="innerProjectContainer">
+                                <p class="projectTitle">Anime <span class="sr-only">Dot</span><i
+                                        class="far fa-dot-circle"></i></p>
+                                <p class="elementsUsed">html css js api</p>
+                                <p class="projectDescription">An API is used to filter content from MyAnimeList. Users
+                                    chose
+                                    a genre and anime of that
+                                    genre gets displayed on the screen. Clicking on the image takes the user to the
+                                    page.
+                                </p>
+                                <div class="buttonForProjects">
+                                    <a tabIndex='0' href="https://adeeldin72.github.io/animedot/" target="_blank">View
+                                        Live</a>
+                                    <a tabIndex='0' href="https://github.com/adeeldin72/animedot" target="_blank">View
+                                        Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="firstUL" id="secondProjectGroup">
+
+                    <li data-aos="fade-right">
+                        <div class="projectDiv noAnimation">
+                            <img src="./images/portfolioLive/bookTimes.gif" alt="">
+                            <div class="innerProjectContainer">
+                                <p class="projectTitle">Book Times</p>
+                                <p class="elementsUsed">html css js api firebase</p>
+                                <p class="projectDescription">Users choose a genre and the page will display the most
+                                    popular books in that genre from
+                                    the NYT API. Users can also store books on their bookshelf seen at the bottom of the
+                                    page.</p>
+                                <div class="buttonForProjects">
+                                    <a tabIndex='0'
+                                        href="https://adeeldin.github.io/adeel-din-barish-bozkurt-project-2/"
+                                        target="_blank">View Live</a>
+                                    <a tabIndex='0'
+                                        href="https://github.com/adeeldin/adeel-din-barish-bozkurt-project-2"
+                                        target="_blank">View Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+                    <li data-aos="fade-left">
+                        <div class="projectDivReverse  noAnimation">
+                            <img src="./images/portfolioLive/pomodoroTimer.gif" alt="">
+                            <div class="innerProjectContainer">
+                                <p class="projectTitle">The Pomodoro Timer</p>
+                                <p class="elementsUsed">html css js</p>
+                                <p class="projectDescription">Users can use this site to run a Pomodoro Timer to get
+                                    work
+                                    done. They can also set tasks and remove them when completed.</p>
+                                <div class="buttonForProjects">
+                                    <a tabIndex='0' href="https://adeeldin72.github.io/pomodoroTimer/"
+                                        target="_blank">View Live</a>
+                                    <a tabIndex='0' href="https://github.com/adeeldin72/pomodoroTimer"
+                                        target="_blank">View
+                                        Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <ul class="firstUL" id="thirdProjectGroup">
+
+                    <li data-aos="fade-right">
+                        <div class="projectDiv  noAnimation">
+                            <img src="./images/portfolioLive/bookOrMovie.gif" alt="">
+                            <div class="innerProjectContainer">
+                                <p class="projectTitle">Book Or Movie</p>
+                                <p class="elementsUsed">React html css js api firebase</p>
+                                <p class="projectDescription">React group project. This website lets you search a movie
+                                    and
+                                    then determines if the book or movie was rated better by using two APIs.</p>
+                                <div class="buttonForProjects">
+                                    <a tabIndex='0' href="https://youthful-hodgkin-b1fe8f.netlify.app/"
+                                        target="_blank">View Live</a>
+                                    <a tabIndex='0' href="https://github.com/project4moviebook/movie-or-book"
+                                        target="_blank">View
+                                        Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li data-aos="fade-left">
+                        <div class="projectDivReverse  noAnimation">
+                            <img src="./images/portfolioLive/sanctuaryHelper.gif" alt="">
+                            <div class="innerProjectContainer">
+                                <p class="projectTitle">Sanctuary Helper</p>
+                                <p class="elementsUsed">html css</p>
+                                <p class="projectDescription">An html and css only site built in class to show we can
+                                    build
+                                    a website
+                                    similar to a provided client design.</p>
+                                <div class="buttonForProjects">
+                                    <a tabIndex='0' href="https://adeeldin72.github.io/adeel-din-project1/index.html"
+                                        target="_blank">View Live</a>
+                                    <a tabIndex='0' href="https://github.com/adeeldin72/adeel-din-project1"
+                                        target="_blank">View
+                                        Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+
+                </ul>
+
+                <div class="desktopAlert">
+                    <p>Checkout this site on desktop for something different!</p>
+                </div>
+
+            </section>
+        </div>
+        <div class="currentThirdPageDisplay">
+            <div class="currentThirdPageDots">
+                <ul>
+                    <li tabIndex='0' id="firstThirdPageDot"><i class="fas fa-circle"></i></li>
+                    <li tabIndex='0' id="secondThirdPageDot"><i class="far fa-circle"></i></li>
+                    <li tabIndex='0' id="thirdThirdPageDot"><i class="far fa-circle"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="fourthContainer wrapper noAnimation">
+        <div class="fourthPageGrid">
+            <section class="gameSection">
+                <div class="scoreBox"><span>Score: </span><span id='scoreEl'>0</span></div>
+                <div class='modal'>
+                    <div class="innerContent">
+                        <p class='modalScore' id="modalScore">0</p>
+                        <p>final score</p>
+                        <button onclick='ballApp.startGame()'>Start Game</button>
+                    </div>
+                </div>
+
+                <!-- <div class="gameSection"> -->
+                <canvas></canvas>
+                <!-- </div> -->
+            </section>
+            <section class='bottomSection'>
+                <section class='contactSection'>
+                    <div class='innerContact'>
+
+                        <div class="innerContactInfo">
+                            <h3>Let's Talk!</h3>
+                            <p>If you want to chat just send me a quick message or use these other contact methods!</p>
+                            <ul>
+                                <li>
+                                    <p>Linkedin: <a href="https://www.linkedin.com/in/adeeldin/">@adeeldin</a></p>
+                                </li>
+                                <li>
+                                    <p>Email: <a href="mailto: adeeldin72@gmail.com">adeeldin72@gmail.com</a></p>
+
+                                </li>
+                                <li>
+                                    <p>Call Me: <a href="tel:+16479159490">647-915-9490</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="formBack">
+                            <form action="mailto:adeeldin72@gmail.com" method="post" enctype="text/plain">
+
+                                <label class="sr-only" for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name..">
+
+                                <label class="sr-only" for="mail">Email</label>
+                                <input type="text" id="mail" name="mail" placeholder="Your last name..">
+
+                                <label class="sr-only" for="comment">Message</label>
+                                <textarea id="comment" name="comment" placeholder="Write something.."
+                                    style="height:200px"></textarea>
+
+                                <input type="submit" value="Submit">
+
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <p>Designed and Developed by Adeel Din</p>
+                </footer>
+            </section>
+        </div>
+
+    </div>
+
+
+    <!-- <div class="headContainer">
         <img src="./images/head2/leftHead.png" alt="" class="head1">
         <img src="./images/head2/leftSkull.png" alt="" class="head2">
         <img src="./images/head2/leftBrain.png" alt="" class="head3">
         <img src="./images/head2/rightBrain.png" alt="" class="head4">
         <img src="./images/head2/rightSkull.png" alt="" class="head5">
         <img src="./images/head2/rightHead.png" alt="" class="head6">
-    </div>
+    </div> -->
 
-    <main class="wrapper">
+    <!-- <main class="wrapper">
 
-        <section class="summary">
+        <div class="summary" tabindex="0" data-aos="zoom-in" data-aos-duration="2000">
             <div>
                 <h3>Hello, Im Adeel Din!</h3>
-                <P>Passionate web developer able to design and build
+                <P>Passionate web developer from Toronto, ON, able to design and build
                     attractive, responsive, and accessible websites following best practices. Sometimes I like to
                     design
                     things.</P>
@@ -67,7 +354,7 @@
                 <p class="heartBeat"> <i class="far fa-arrow-alt-circle-down"></i>
                 </p>
             </div>
-        </section>
+        </div>
         <section class="projects">
             <div class="projectHeading">
                 <h3>Projects I've Worked On</h3>
@@ -167,8 +454,9 @@
                         <img src="./images/portfolioLive/sanctuaryHelper.gif" alt="">
                         <div class="innerProjectContainer">
                             <p class="projectTitle">Sanctuary Helper</p>
-                            <p class="elementsUsed">html css js</p>
-                            <p class="projectDescription">A no JS site built in class to show we can build a website
+                            <p class="elementsUsed">html css</p>
+                            <p class="projectDescription">An html and css only site built in class to show we can build
+                                a website
                                 similar to a provided client design.</p>
                             <div class="buttonForProjects">
                                 <a href="https://adeeldin72.github.io/adeel-din-project1/index.html"
@@ -222,12 +510,18 @@
             </div>
         </section>
 
-    </main>
-    <footer>
+    </main> -->
+    <!-- <footer>
         <p>Designed and Developed by Adeel Din</p>
-    </footer>
+    </footer> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+        integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./shooterScript.js"></script>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
     <script>
         AOS.init({
             // Global settings:
@@ -244,7 +538,7 @@
             // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
             offset: 120, // offset (in px) from the original trigger point
             delay: 0, // values from 0 to 3000, with step 50ms
-            duration: 400, // values from 0 to 3000, with step 50ms
+            duration: 500, // values from 0 to 3000, with step 50ms
             easing: 'ease', // default easing for AOS animations
             once: false, // whether animation should happen only once - while scrolling down
             mirror: false, // whether elements should animate out while scrolling past them
