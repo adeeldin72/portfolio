@@ -298,6 +298,8 @@ function displayPage() {
     document.querySelector('.thirdContainer').style.display = 'none';
     document.querySelector('.fourthContainer').style.display = 'none';
 
+    document.querySelector(".desktopAlert").style.display = "none";
+
     // set all page dots to blank
     document.querySelector('#firstPageDot').innerHTML = '<i class="far fa-circle"></i>';
     document.querySelector('#secondPageDot').innerHTML = '<i class="far fa-circle"></i>';
