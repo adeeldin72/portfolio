@@ -364,6 +364,7 @@ h3 {
     background-size: cover;
     margin: 0 auto;
     overflow-x: hidden;
+    position: fixed;
 }
 
 .currentPageDisplay {
