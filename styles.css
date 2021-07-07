@@ -338,6 +338,7 @@ h3 {
     min-width: 100vw;
     min-height: 100vh;
     max-width: 100vw;
+    min-height: -webkit-fill-available;
     /* max-height: 100vh; */
     display: grid;
     grid-auto-columns: 1fr;
