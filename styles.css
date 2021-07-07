@@ -284,6 +284,7 @@ html {
     width: 100vw;
 
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 
 
     /* display: flex; */
@@ -348,6 +349,7 @@ h3 {
     min-width: 100vw;
 
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 
     max-width: 100vw;
 
@@ -374,6 +376,7 @@ h3 {
     min-width: 100vw;
 
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 
     width: 100vw;
 
@@ -391,7 +394,7 @@ h3 {
 
 .currentPageDisplay {
     /* min-width: 100vw;
-    min-height: 100vh;
+    min-height: 100vh;min-height: -webkit-fill-available;
     width: 100vw;
     height: 100vh;
     position: fixed; */
@@ -402,6 +405,7 @@ h3 {
     min-width: 100vw;
 
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 
     width: 100vw;
 
@@ -454,6 +458,7 @@ body {
     min-width: 100vw;
 
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 
     max-width: 100vw;
 
@@ -491,6 +496,7 @@ body {
     min-width: 100vw;
 
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 
     /* display: none; */
     width: 100vw;
@@ -519,6 +525,7 @@ body {
     min-width: 100vw;
 
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 
 
     width: 100vw;
@@ -648,6 +655,7 @@ a {
 
 
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 
 
     /* display: none; */
@@ -668,7 +676,7 @@ a {
 
 /* .innerContainer {
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 100vh;min-height: -webkit-fill-available;
     overflow-y: auto;
     width: 100vw;
     height: 100vh;
@@ -921,6 +929,7 @@ h3 {
 
 main {
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 
 
 }
@@ -1008,6 +1017,7 @@ html {
     min-width: 100vw;
 
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 
 
 }
@@ -1621,6 +1631,7 @@ canvas {
     min-width: 100vw;
 
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 
 
     width: 100vw;
@@ -2074,6 +2085,7 @@ textarea {
         min-width: 100vw;
 
         min-height: 100vh;
+        min-height: -webkit-fill-available;
 
 
         width: 100vw;
@@ -2133,6 +2145,7 @@ textarea {
         min-width: 100vw;
 
         min-height: 100vh;
+        min-height: -webkit-fill-available;
 
         width: 100vw;
 
@@ -2224,6 +2237,7 @@ textarea {
         min-width: 100vw;
 
         min-height: 100vh;
+        min-height: -webkit-fill-available;
 
         /* display: none; */
         width: auto;
@@ -2308,6 +2322,7 @@ textarea {
         min-width: 100vw;
 
         min-height: 100vh;
+        min-height: -webkit-fill-available;
 
         width: 100vw;
 
@@ -2365,6 +2380,7 @@ textarea {
         min-width: 100vw;
 
         min-height: 100vh;
+        min-height: -webkit-fill-available;
 
         width: 100vw;
 
@@ -2454,6 +2470,7 @@ textarea {
         min-width: 100vw;
 
         min-height: 100vh;
+        min-height: -webkit-fill-available;
 
         /* display: none; */
         width: auto;
