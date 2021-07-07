@@ -1608,7 +1608,7 @@ canvas {
     animation: heartbeat 7s infinite;
     text-transform: uppercase;
     background-color: #FFC7C7;
-    display: none;
+    /* display: none; */
 
 }
 
