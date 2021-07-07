@@ -4,6 +4,7 @@ let display = 0;
 let direction = null;
 let tabActive = false;
 let showSinglePage = false;
+let showingSinglePage = true;
 // // When the user scrolls down 20px from the top of the document, show the button
 // window.onscroll = function () { scrollFunction() };
 // let headPosition = 0, brainPosition = 0, skullPosition = 0, currentScroll = 0;
@@ -79,7 +80,7 @@ function handleTouchMove(evt) {
 
     if (Math.abs(xDiff) > Math.abs(yDiff)) {/*most significant*/
         if (xDiff > 0) {
-            if (!showSinglePage) {
+            if (!showSinglePage && !showingSinglePage) {
                 document.querySelector('.loadingGif').style.display = 'block';
                 /* left swipe */
                 // console.log('left swipe');
@@ -87,7 +88,7 @@ function handleTouchMove(evt) {
                 displayPage();
             }
         } else {
-            if (!showSinglePage) {
+            if (!showSinglePage && !showingSinglePage) {
                 document.querySelector('.loadingGif').style.display = 'block';
                 /* left swipe */
                 // console.log('right swipe');
@@ -98,7 +99,7 @@ function handleTouchMove(evt) {
         }
     } else {
         if (yDiff > 0) {
-            if (!showSinglePage) {
+            if (!showSinglePage && !showingSinglePage) {
                 document.querySelector('.loadingGif').style.display = 'block';
                 /* left swipe */
                 // console.log('up swipe');
@@ -107,7 +108,7 @@ function handleTouchMove(evt) {
             }
             /* up swipe */
         } else {
-            if (!showSinglePage) {
+            if (!showSinglePage && !showingSinglePage) {
                 document.querySelector('.loadingGif').style.display = 'block';
                 /* left swipe */
                 // console.log('down swipe');
@@ -219,6 +220,7 @@ $(window).on('wheel', function (event) {
 
 
 function displayPage() {
+    showingSinglePage = false;
     document.querySelector('.loadingGif').style.display = 'none';
     if (display > 5) {
         display = 0;
@@ -326,6 +328,7 @@ function resetPage() {
 }
 
 function displaySinglePage() {
+    showingSinglePage = true;
     document.querySelector('.firstContainer').style.display = 'block';
     document.querySelector('.secondContainer').style.display = 'block';
     document.querySelector('.thirdContainer').style.display = 'block';
