@@ -282,6 +282,7 @@ html {
 
 .heroParallax {
     width: 100vw;
+    width: fill-available;
     min-height: 100vh;
     /* display: flex; */
     position: absolute;
@@ -294,6 +295,7 @@ html {
 
 .heroImage {
     width: 100vw;
+    width: fill-available;
     height: 100vh;
     /* position: fixed; */
     /* top: 0; */
@@ -305,6 +307,7 @@ html {
 .hero2Image {
     /* display: none; */
     width: 100vw;
+    width: fill-available;
     height: 100vh;
     /* position: fixed; */
     /* top: 100vh; */
@@ -337,9 +340,11 @@ h3 {
     position: fixed;
     text-align: justify;
     min-width: 100vw;
+    width: fill-available;
     min-width: -webkit-fill-available;
     min-height: 100vh;
     max-width: 100vw;
+    width: fill-available;
     min-height: -webkit-fill-available;
     /* max-height: 100vh; */
     display: grid;
@@ -360,9 +365,11 @@ h3 {
 
 .firstContainer {
     min-width: 100vw;
+    width: fill-available;
     min-width: -webkit-fill-available;
     min-height: 100vh;
     width: 100vw;
+    width: fill-available;
     height: 100vh;
     background-image: url(./images/staticBackground.png);
     background-size: cover;
@@ -372,9 +379,9 @@ h3 {
 }
 
 .currentPageDisplay {
-    /* min-width: 100vw;min-width: -webkit-fill-available;
+    /* min-width: 100vw;width: fill-available;min-width: -webkit-fill-available;
     min-height: 100vh;
-    width: 100vw;
+    width: 100vw;width: fill-available;
     height: 100vh;
     position: fixed; */
 
@@ -382,9 +389,11 @@ h3 {
 
 .currentThirdPageDisplay {
     min-width: 100vw;
+    width: fill-available;
     min-width: -webkit-fill-available;
     min-height: 100vh;
     width: 100vw;
+    width: fill-available;
     height: 100vh;
     position: fixed;
     z-index: 20;
@@ -428,9 +437,11 @@ li {
 
 body {
     min-width: 100vw;
+    width: fill-available;
     min-width: -webkit-fill-available;
     min-height: 100vh;
     max-width: 100vw;
+    width: fill-available;
     /* max-height: calc(100vh + 1000px); */
     overflow-x: hidden;
     min-height: -webkit-fill-available;
@@ -456,10 +467,12 @@ body {
 
 .secondContainer {
     min-width: 100vw;
+    width: fill-available;
     min-width: -webkit-fill-available;
     min-height: 100vh;
     /* display: none; */
     width: 100vw;
+    width: fill-available;
     height: 100vh;
     background-image: url(./images/static2Background.png);
     background-size: cover;
@@ -471,10 +484,12 @@ body {
 
 .innerContainerSecond {
     min-width: 100vw;
+    width: fill-available;
     min-width: -webkit-fill-available;
     min-height: 100vh;
     min-height: -webkit-fill-available;
     width: 100vw;
+    width: fill-available;
     height: 100vh;
     display: grid;
     grid-auto-columns: 1fr;
@@ -590,10 +605,12 @@ a {
 .thirdContainer {
 
     min-width: 100vw;
+    width: fill-available;
     min-width: -webkit-fill-available;
     min-height: 100vh;
     /* display: none; */
     width: 100vw;
+    width: fill-available;
     height: 100vh;
     background-image: url(./images/page3Back.png);
     background-size: cover;
@@ -604,10 +621,10 @@ a {
 }
 
 /* .innerContainer {
-    min-width: 100vw;min-width: -webkit-fill-available;
+    min-width: 100vw;width: fill-available;min-width: -webkit-fill-available;
     min-height: 100vh;
     overflow-y: auto;
-    width: 100vw;
+    width: 100vw;width: fill-available;
     height: 100vh;
     display: grid;
     grid-auto-columns: 1fr;
@@ -942,6 +959,7 @@ html {
     flex-direction: column;
     align-items: center;
     min-width: 100vw;
+    width: fill-available;
     min-width: -webkit-fill-available;
     min-height: 100vh;
     min-height: -webkit-fill-available;
@@ -1553,10 +1571,12 @@ canvas {
 
 .fourthContainer {
     min-width: 100vw;
+    width: fill-available;
     min-width: -webkit-fill-available;
     min-height: 100vh;
     min-height: -webkit-fill-available;
     width: 100vw;
+    width: fill-available;
     height: 100vh;
     background: black;
     background-size: cover;
@@ -1617,6 +1637,7 @@ canvas {
 
 .fourthPageGrid {
     max-width: 100vw;
+    width: fill-available;
     max-height: 100vh;
     display: grid;
     grid-auto-columns: 1fr;
@@ -1997,10 +2018,12 @@ textarea {
     /* @media only screen and (max-width: 450px) { */
     .innerContainerSecond {
         min-width: 100vw;
+        width: fill-available;
         min-width: -webkit-fill-available;
         min-height: 100vh;
         min-height: -webkit-fill-available;
         width: 100vw;
+        width: fill-available;
         /* height: 50vh; */
         /* position: static; */
         display: grid;
@@ -2031,6 +2054,7 @@ textarea {
 
     .currentPageDots ul {
         width: 100vw;
+        width: fill-available;
         display: flex;
         justify-content: center;
         padding: 0px;
@@ -2051,9 +2075,11 @@ textarea {
     /* PAGE DOTS ____________________________________*/
     .innerContainerSecond {
         min-width: 100vw;
+        width: fill-available;
         min-width: -webkit-fill-available;
         min-height: 100vh;
         width: 100vw;
+        width: fill-available;
         height: 100vh;
         display: grid;
         grid-auto-columns: 1fr;
@@ -2071,11 +2097,13 @@ textarea {
 
     .secondContainer {
         min-width: 100vw;
+        width: fill-available;
         min-width: -webkit-fill-available;
         min-height: 400px;
 
         /* display: none; */
         width: 100vw;
+        width: fill-available;
         height: 60vh;
         background-image: url(./images/static2Background.png);
         background-size: cover;
@@ -2115,6 +2143,7 @@ textarea {
         min-width: auto;
         min-height: auto;
         width: 100vw;
+        width: fill-available;
         height: auto;
     }
 
@@ -2134,6 +2163,7 @@ textarea {
 
     .thirdContainer {
         min-width: 100vw;
+        width: fill-available;
         min-width: -webkit-fill-available;
         min-height: 100vh;
         /* display: none; */
@@ -2217,9 +2247,11 @@ textarea {
     /* @media only screen and (max-width: 450px) { */
     .innerContainerSecond {
         min-width: 100vw;
+        width: fill-available;
         min-width: -webkit-fill-available;
         min-height: 100vh;
         width: 100vw;
+        width: fill-available;
         /* height: 50vh; */
         /* position: static; */
         display: grid;
@@ -2251,6 +2283,7 @@ textarea {
 
     .currentPageDots ul {
         width: 100vw;
+        width: fill-available;
         display: flex;
         justify-content: center;
         padding: 0px;
@@ -2271,9 +2304,11 @@ textarea {
     /* PAGE DOTS ____________________________________*/
     .innerContainerSecond {
         min-width: 100vw;
+        width: fill-available;
         min-width: -webkit-fill-available;
         min-height: 100vh;
         width: 100vw;
+        width: fill-available;
         height: 100vh;
         display: grid;
         grid-auto-columns: 1fr;
@@ -2291,11 +2326,13 @@ textarea {
 
     .secondContainer {
         min-width: 100vw;
+        width: fill-available;
         min-width: -webkit-fill-available;
         min-height: 400px;
 
         /* display: none; */
         width: 100vw;
+        width: fill-available;
         height: 60vh;
         background-image: url(./images/static2Background.png);
         background-size: cover;
@@ -2335,6 +2372,7 @@ textarea {
         min-width: auto;
         min-height: auto;
         width: 100vw;
+        width: fill-available;
         height: auto;
     }
 
@@ -2354,6 +2392,7 @@ textarea {
 
     .thirdContainer {
         min-width: 100vw;
+        width: fill-available;
         min-width: -webkit-fill-available;
         min-height: 100vh;
         /* display: none; */
