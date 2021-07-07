@@ -289,6 +289,7 @@ html {
     /* height: auto; */
     /* bottom: 0; */
     z-index: -100;
+    min-height: -webkit-fill-available;
 }
 
 .heroImage {
@@ -384,7 +385,7 @@ h3 {
     height: 100vh;
     position: fixed;
     z-index: 20;
-
+    min-height: -webkit-fill-available;
 }
 
 .currentThirdPageDisplay ul {
@@ -457,7 +458,7 @@ body {
     background-image: url(./images/static2Background.png);
     background-size: cover;
     margin: 0 auto;
-
+    min-height: -webkit-fill-available;
 
 }
 
@@ -465,7 +466,7 @@ body {
 .innerContainerSecond {
     min-width: 100vw;
     min-height: 100vh;
-
+    min-height: -webkit-fill-available;
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -589,7 +590,7 @@ a {
     background-image: url(./images/page3Back.png);
     background-size: cover;
     margin: 0 auto;
-
+    min-height: -webkit-fill-available;
 
     overflow-x: hidden;
 }
@@ -849,6 +850,7 @@ h3 {
 
 main {
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 html {
@@ -933,7 +935,7 @@ html {
     align-items: center;
     min-width: 100vw;
     min-height: 100vh;
-
+    min-height: -webkit-fill-available;
 }
 
 .headContainer img {
@@ -1543,7 +1545,7 @@ canvas {
 .fourthContainer {
     min-width: 100vw;
     min-height: 100vh;
-
+    min-height: -webkit-fill-available;
     width: 100vw;
     height: 100vh;
     background: black;
@@ -1794,7 +1796,7 @@ textarea {
     position: absolute;
     display: flex;
     flex-direction: column;
-    bottom: 20px;
+    bottom: 0px;
     z-index: 150;
 }
 
@@ -1986,6 +1988,7 @@ textarea {
     .innerContainerSecond {
         min-width: 100vw;
         min-height: 100vh;
+        min-height: -webkit-fill-available;
         width: 100vw;
         /* height: 50vh; */
         /* position: static; */
@@ -2051,6 +2054,7 @@ textarea {
             ". summary ."
             ". picture ."
             ". . .";
+        min-height: -webkit-fill-available;
     }
 
     .secondContainer {
@@ -2126,6 +2130,7 @@ textarea {
         background-size: contain;
         margin: 0 auto;
         /* background-color: #71C9CE; */
+        min-height: -webkit-fill-available;
     }
 
     .projectDiv,
@@ -2213,6 +2218,7 @@ textarea {
             ". summary ."
             ". picture ."
             ". . .";
+        min-height: -webkit-fill-available;
     }
 
     /* PAGE DOTS ____________________________________*/
@@ -2264,6 +2270,7 @@ textarea {
             ". summary ."
             ". picture ."
             ". . .";
+        min-height: -webkit-fill-available;
     }
 
     .secondContainer {
@@ -2339,6 +2346,7 @@ textarea {
         background-size: contain;
         margin: 0 auto;
         /* background-color: #71C9CE; */
+        min-height: -webkit-fill-available;
     }
 
     .projectDiv,
