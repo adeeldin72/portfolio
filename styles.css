@@ -283,6 +283,7 @@ html {
 .heroParallax {
     width: 100vw;
     min-height: 100vh;
+    height: -webkit-fill-available;
     /* display: flex; */
     position: absolute;
     top: 0;
@@ -295,6 +296,7 @@ html {
 .heroImage {
     width: 100vw;
     height: 100vh;
+    height: -webkit-fill-available;
     /* position: fixed; */
     /* top: 0; */
     background-image: url(./images/staticBackground.png);
@@ -306,6 +308,7 @@ html {
     /* display: none; */
     width: 100vw;
     height: 100vh;
+    height: -webkit-fill-available;
     /* position: fixed; */
     /* top: 100vh; */
     background-image: url(./images/static2Background.png);
@@ -352,7 +355,7 @@ h3 {
         ". title title ."
         ". . . titleSubHeading"
         "button . . titleSubHeading";
-
+    height: -webkit-fill-available;
 }
 
 
@@ -386,6 +389,7 @@ h3 {
     position: fixed;
     z-index: 20;
     min-height: -webkit-fill-available;
+    height: -webkit-fill-available;
 }
 
 .currentThirdPageDisplay ul {
@@ -430,7 +434,7 @@ body {
     /* max-height: calc(100vh + 1000px); */
     overflow-x: hidden;
     min-height: -webkit-fill-available;
-    ;
+    height: -webkit-fill-available;
 }
 
 html,
@@ -459,6 +463,7 @@ body {
     background-size: cover;
     margin: 0 auto;
     min-height: -webkit-fill-available;
+    height: -webkit-fill-available;
 
 }
 
@@ -480,6 +485,7 @@ body {
         ". summary summary . . . "
         ". . . picture picture picture"
         ". . . picture picture picture";
+    height: -webkit-fill-available;
 }
 
 .title {
@@ -585,13 +591,14 @@ a {
     min-width: 100vw;
     min-height: 100vh;
     /* display: none; */
+
     width: 100vw;
     height: 100vh;
     background-image: url(./images/page3Back.png);
     background-size: cover;
     margin: 0 auto;
     min-height: -webkit-fill-available;
-
+    height: -webkit-fill-available;
     overflow-x: hidden;
 }
 
@@ -1618,6 +1625,9 @@ canvas {
     grid-template-areas:
         "game"
         "contact";
+    height: -webkit-fill-available;
+    max-height: -webkit-fill-available;
+    ;
 
 }
 
@@ -2272,6 +2282,7 @@ textarea {
             ". picture ."
             ". . .";
         min-height: -webkit-fill-available;
+        height: -webkit-fill-available;
     }
 
     .secondContainer {
@@ -2348,6 +2359,7 @@ textarea {
         margin: 0 auto;
         /* background-color: #71C9CE; */
         min-height: -webkit-fill-available;
+        height: -webkit-fill-available;
     }
 
     .projectDiv,
