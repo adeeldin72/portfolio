@@ -341,16 +341,27 @@ function displaySinglePage() {
 function showTheSinglePage() {
     console.log('show the single page')
     showSinglePage = true;
-    resetPage();
-    $('link[href="styles.css"]').attr('href', 'singlePage.css');
 
-    displaySinglePage();
+    const secondFunction = async () => {
+        const result = await resetPage();
+        // do something else here after firstFunction completes
+        thirdFunction();
+    }
+
+    const thirdFunction = async () => {
+        const result = await $('link[href="styles.css"]').attr('href', 'singlePage.css');
+        // do something else here after firstFunction completes       
+        displaySinglePage();
+    }
+    secondFunction();
+    // resetPage();
+    // $('link[href="styles.css"]').attr('href', 'singlePage.css');
+
+
 }
 
 
-document.onload(() => {
-    // document.querySelector('.loadingGif').style.display = 'none';
-})
+
 
 // function checkVisible(elm, eval) {
 //     eval = eval || "visible";

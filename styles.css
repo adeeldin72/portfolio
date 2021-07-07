@@ -282,25 +282,25 @@ html {
 
 .heroParallax {
     width: 100vw;
-    width: -webkit-fill-available;
+
     min-height: 100vh;
-    min-height: -webkit-fill-available;
-    height: -webkit-fill-available;
+
+
     /* display: flex; */
     position: absolute;
     top: 0;
     /* height: auto; */
     /* bottom: 0; */
     z-index: -100;
-    min-height: -webkit-fill-available;
+
 }
 
 .heroImage {
     width: 100vw;
-    width: -webkit-fill-available;
+
     height: 100vh;
-    height: -webkit-fill-available;
-    height: -webkit-fill-available;
+
+
     /* position: fixed; */
     /* top: 0; */
     background-image: url(./images/staticBackground.png);
@@ -311,10 +311,10 @@ html {
 .hero2Image {
     /* display: none; */
     width: 100vw;
-    width: -webkit-fill-available;
+
     height: 100vh;
-    height: -webkit-fill-available;
-    height: -webkit-fill-available;
+
+
     /* position: fixed; */
     /* top: 100vh; */
     background-image: url(./images/static2Background.png);
@@ -346,11 +346,11 @@ h3 {
     position: fixed;
     text-align: justify;
     min-width: 100vw;
-    min-width: -webkit-fill-available;
+
     min-height: 100vh;
-    min-height: -webkit-fill-available;
+
     max-width: 100vw;
-    max-width: -webkit-fill-available;
+
 
 
     /* max-height: 100vh; */
@@ -372,47 +372,47 @@ h3 {
 
 .firstContainer {
     min-width: 100vw;
-    min-width: -webkit-fill-available;
+
     min-height: 100vh;
-    min-height: -webkit-fill-available;
+
     width: 100vw;
-    width: -webkit-fill-available;
+
     height: 100vh;
-    height: -webkit-fill-available;
+
     background-image: url(./images/staticBackground.png);
     background-size: cover;
     margin: 0 auto;
     overflow-x: hidden;
-    min-height: -webkit-fill-available;
-    height: -webkit-fill-available;
-    width: -webkit-fill-available;
-    min-width: -webkit-fill-available;
+
+
+
+
 }
 
 .currentPageDisplay {
-    /* min-width: 100vw;min-width: -webkit-fill-available;
-    min-height: 100vh;min-height: -webkit-fill-available;
-    width: 100vw;width: -webkit-fill-available;
-    height: 100vh;height: -webkit-fill-available;
+    /* min-width: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     position: fixed; */
 
 }
 
 .currentThirdPageDisplay {
     min-width: 100vw;
-    min-width: -webkit-fill-available;
+
     min-height: 100vh;
-    min-height: -webkit-fill-available;
+
     width: 100vw;
-    width: -webkit-fill-available;
+
     height: 100vh;
-    height: -webkit-fill-available;
+
     position: fixed;
     z-index: 20;
-    min-height: -webkit-fill-available;
-    height: -webkit-fill-available;
-    width: -webkit-fill-available;
-    min-width: -webkit-fill-available;
+
+
+
+
 }
 
 .currentThirdPageDisplay ul {
@@ -452,17 +452,17 @@ li {
 
 body {
     min-width: 100vw;
-    min-width: -webkit-fill-available;
+
     min-height: 100vh;
-    min-height: -webkit-fill-available;
+
     max-width: 100vw;
-    max-width: -webkit-fill-available;
+
     /* max-height: calc(100vh + 1000px); */
     overflow-x: hidden;
-    min-height: -webkit-fill-available;
-    max-height: -webkit-fill-available;
-    min-width: -webkit-fill-available;
-    max-width: -webkit-fill-available;
+
+
+
+
 }
 
 html,
@@ -471,9 +471,9 @@ body {
     min-height: 100vh !important;
     max-width: 100vw !important;
     max-height: 100vh !important;
-    overflow: hidden;
-    min-height: -webkit-fill-available;
-    max-height: -webkit-fill-available;
+    /* overflow: hidden; */
+
+
     ;
 
 }
@@ -485,42 +485,42 @@ body {
 
 .secondContainer {
     min-width: 100vw;
-    min-width: -webkit-fill-available;
+
     min-height: 100vh;
-    min-height: -webkit-fill-available;
+
     /* display: none; */
     width: 100vw;
-    width: -webkit-fill-available;
+
     height: 100vh;
-    height: -webkit-fill-available;
+
     background-image: url(./images/static2Background.png);
     background-size: cover;
     margin: 0 auto;
 
 
-    height: -webkit-fill-available;
-
-    min-height: -webkit-fill-available;
 
 
 
-    min-width: -webkit-fill-available;
 
 
-    width: -webkit-fill-available;
+
+
+
+
+
 }
 
 
 .innerContainerSecond {
     min-width: 100vw;
-    min-width: -webkit-fill-available;
+
     min-height: 100vh;
-    min-height: -webkit-fill-available;
-    min-height: -webkit-fill-available;
+
+
     width: 100vw;
-    width: -webkit-fill-available;
+
     height: 100vh;
-    height: -webkit-fill-available;
+
     display: grid;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
@@ -532,11 +532,11 @@ body {
         ". summary summary . . . "
         ". . . picture picture picture"
         ". . . picture picture picture";
-    height: -webkit-fill-available;
 
-    min-width: -webkit-fill-available;
 
-    width: -webkit-fill-available;
+
+
+
 
 }
 
@@ -641,19 +641,19 @@ a {
 .thirdContainer {
 
     min-width: 100vw;
-    min-width: -webkit-fill-available;
-    min-width: -webkit-fill-available;
+
+
     min-height: 100vh;
-    min-height: -webkit-fill-available;
-    min-height: -webkit-fill-available;
+
+
     /* display: none; */
 
     width: 100vw;
-    width: -webkit-fill-available;
-    width: -webkit-fill-available;
+
+
     height: 100vh;
-    height: -webkit-fill-available;
-    height: -webkit-fill-available;
+
+
     background-image: url(./images/page3Back.png);
     background-size: cover;
     margin: 0 auto;
@@ -663,11 +663,11 @@ a {
 }
 
 /* .innerContainer {
-    min-width: 100vw;min-width: -webkit-fill-available;
-    min-height: 100vh;min-height: -webkit-fill-available;
+    min-width: 100vw;
+    min-height: 100vh;
     overflow-y: auto;
-    width: 100vw;width: -webkit-fill-available;
-    height: 100vh;height: -webkit-fill-available;
+    width: 100vw;
+    height: 100vh;
     display: grid;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
@@ -917,8 +917,8 @@ h3 {
 
 main {
     min-height: 100vh;
-    min-height: -webkit-fill-available;
-    min-height: -webkit-fill-available;
+
+
 }
 
 html {
@@ -1002,10 +1002,10 @@ html {
     flex-direction: column;
     align-items: center;
     min-width: 100vw;
-    min-width: -webkit-fill-available;
+
     min-height: 100vh;
-    min-height: -webkit-fill-available;
-    min-height: -webkit-fill-available;
+
+
 }
 
 .headContainer img {
@@ -1615,16 +1615,16 @@ canvas {
 
 .fourthContainer {
     min-width: 100vw;
-    min-width: -webkit-fill-available;
+
     min-height: 100vh;
-    min-height: -webkit-fill-available;
-    min-height: -webkit-fill-available;
+
+
     width: 100vw;
-    width: -webkit-fill-available;
-    width: -webkit-fill-available;
+
+
     height: 100vh;
-    height: -webkit-fill-available;
-    height: -webkit-fill-available;
+
+
     background: black;
     background-size: cover;
     margin: 0 auto;
@@ -1684,7 +1684,7 @@ canvas {
 
 .fourthPageGrid {
     max-width: 100vw;
-    max-width: -webkit-fill-available;
+
     max-height: 100vh;
     display: grid;
     grid-auto-columns: 1fr;
@@ -1695,8 +1695,8 @@ canvas {
     grid-template-areas:
         "game"
         "contact";
-    height: -webkit-fill-available;
-    max-height: -webkit-fill-available;
+
+
     ;
 
 }
@@ -2068,13 +2068,13 @@ textarea {
     /* @media only screen and (max-width: 450px) { */
     .innerContainerSecond {
         min-width: 100vw;
-        min-width: -webkit-fill-available;
+
         min-height: 100vh;
-        min-height: -webkit-fill-available;
-        min-height: -webkit-fill-available;
+
+
         width: 100vw;
-        width: -webkit-fill-available;
-        width: -webkit-fill-available;
+
+
         /* height: 50vh; */
         /* position: static; */
         display: grid;
@@ -2105,8 +2105,8 @@ textarea {
 
     .currentPageDots ul {
         width: 100vw;
-        width: -webkit-fill-available;
-        width: -webkit-fill-available;
+
+
         display: flex;
         justify-content: center;
         padding: 0px;
@@ -2127,14 +2127,14 @@ textarea {
     /* PAGE DOTS ____________________________________*/
     .innerContainerSecond {
         min-width: 100vw;
-        min-width: -webkit-fill-available;
+
         min-height: 100vh;
-        min-height: -webkit-fill-available;
+
         width: 100vw;
-        width: -webkit-fill-available;
-        width: -webkit-fill-available;
+
+
         height: 100vh;
-        height: -webkit-fill-available;
+
         display: grid;
         grid-auto-columns: 1fr;
         grid-auto-rows: 1fr;
@@ -2146,18 +2146,18 @@ textarea {
             ". summary ."
             ". picture ."
             ". . .";
-        min-height: -webkit-fill-available;
+
     }
 
     .secondContainer {
         min-width: 100vw;
-        min-width: -webkit-fill-available;
+
         min-height: 400px;
 
         /* display: none; */
         width: 100vw;
-        width: -webkit-fill-available;
-        width: -webkit-fill-available;
+
+
         height: 60vh;
         background-image: url(./images/static2Background.png);
         background-size: cover;
@@ -2197,8 +2197,8 @@ textarea {
         min-width: auto;
         min-height: auto;
         width: 100vw;
-        width: -webkit-fill-available;
-        width: -webkit-fill-available;
+
+
         height: auto;
     }
 
@@ -2218,9 +2218,9 @@ textarea {
 
     .thirdContainer {
         min-width: 100vw;
-        min-width: -webkit-fill-available;
+
         min-height: 100vh;
-        min-height: -webkit-fill-available;
+
         /* display: none; */
         width: auto;
         height: auto;
@@ -2229,7 +2229,7 @@ textarea {
         background-size: contain;
         margin: 0 auto;
         /* background-color: #71C9CE; */
-        min-height: -webkit-fill-available;
+
     }
 
     .projectDiv,
@@ -2302,11 +2302,11 @@ textarea {
     /* @media only screen and (max-width: 450px) { */
     .innerContainerSecond {
         min-width: 100vw;
-        min-width: -webkit-fill-available;
+
         min-height: 100vh;
-        min-height: -webkit-fill-available;
+
         width: 100vw;
-        width: -webkit-fill-available;
+
         /* height: 50vh; */
         /* position: static; */
         display: grid;
@@ -2320,7 +2320,7 @@ textarea {
             ". summary ."
             ". picture ."
             ". . .";
-        min-height: -webkit-fill-available;
+
     }
 
     /* PAGE DOTS ____________________________________*/
@@ -2338,7 +2338,7 @@ textarea {
 
     .currentPageDots ul {
         width: 100vw;
-        width: -webkit-fill-available;
+
         display: flex;
         justify-content: center;
         padding: 0px;
@@ -2359,13 +2359,13 @@ textarea {
     /* PAGE DOTS ____________________________________*/
     .innerContainerSecond {
         min-width: 100vw;
-        min-width: -webkit-fill-available;
+
         min-height: 100vh;
-        min-height: -webkit-fill-available;
+
         width: 100vw;
-        width: -webkit-fill-available;
+
         height: 100vh;
-        height: -webkit-fill-available;
+
         display: grid;
         grid-auto-columns: 1fr;
         grid-auto-rows: 1fr;
@@ -2377,18 +2377,18 @@ textarea {
             ". summary ."
             ". picture ."
             ". . .";
-        min-height: -webkit-fill-available;
-        height: -webkit-fill-available;
+
+
     }
 
     .secondContainer {
         min-width: 100vw;
-        min-width: -webkit-fill-available;
+
         min-height: 400px;
 
         /* display: none; */
         width: 100vw;
-        width: -webkit-fill-available;
+
         height: 60vh;
         background-image: url(./images/static2Background.png);
         background-size: cover;
@@ -2428,7 +2428,7 @@ textarea {
         min-width: auto;
         min-height: auto;
         width: 100vw;
-        width: -webkit-fill-available;
+
         height: auto;
     }
 
@@ -2448,9 +2448,9 @@ textarea {
 
     .thirdContainer {
         min-width: 100vw;
-        min-width: -webkit-fill-available;
+
         min-height: 100vh;
-        min-height: -webkit-fill-available;
+
         /* display: none; */
         width: auto;
         height: auto;
@@ -2459,8 +2459,8 @@ textarea {
         background-size: contain;
         margin: 0 auto;
         /* background-color: #71C9CE; */
-        min-height: -webkit-fill-available;
-        height: -webkit-fill-available;
+
+
     }
 
     .projectDiv,
