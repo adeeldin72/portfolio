@@ -18,9 +18,17 @@ if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
 let isMobile = false; //initiate as false
 // device detection
 if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+
+
+
     isMobile = true;
     console.log("mobile device");
+
 }
+
+window.addEventListener('resize', function () {
+    window.location.reload();
+});
 // console.log(isMobile);
 // function scrollFunction() {
 
