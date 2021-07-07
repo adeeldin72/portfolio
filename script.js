@@ -80,6 +80,7 @@ function handleTouchMove(evt) {
     if (Math.abs(xDiff) > Math.abs(yDiff)) {/*most significant*/
         if (xDiff > 0) {
             if (!showSinglePage) {
+                document.querySelector('.loadingGif').style.display = 'block';
                 /* left swipe */
                 // console.log('left swipe');
                 display++;
@@ -87,6 +88,7 @@ function handleTouchMove(evt) {
             }
         } else {
             if (!showSinglePage) {
+                document.querySelector('.loadingGif').style.display = 'block';
                 /* left swipe */
                 // console.log('right swipe');
                 display--;
@@ -97,6 +99,7 @@ function handleTouchMove(evt) {
     } else {
         if (yDiff > 0) {
             if (!showSinglePage) {
+                document.querySelector('.loadingGif').style.display = 'block';
                 /* left swipe */
                 // console.log('up swipe');
                 display++;
@@ -105,6 +108,7 @@ function handleTouchMove(evt) {
             /* up swipe */
         } else {
             if (!showSinglePage) {
+                document.querySelector('.loadingGif').style.display = 'block';
                 /* left swipe */
                 // console.log('down swipe');
                 display--;
@@ -215,6 +219,7 @@ $(window).on('wheel', function (event) {
 
 
 function displayPage() {
+    document.querySelector('.loadingGif').style.display = 'none';
     if (display > 5) {
         display = 0;
     }
@@ -343,6 +348,9 @@ function showTheSinglePage() {
 }
 
 
+document.onload(() => {
+    // document.querySelector('.loadingGif').style.display = 'none';
+})
 
 // function checkVisible(elm, eval) {
 //     eval = eval || "visible";
