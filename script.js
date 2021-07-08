@@ -346,7 +346,7 @@ function showTheSinglePage() {
 }
 
 
-$(window).on("load", function () {
+$(document).ready(function () {
     $(".loader-wrapper").fadeOut("slow");
     $('html').css('pointer-events', 'all');
     $(window).on('wheel', function (event) {
