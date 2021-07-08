@@ -42,8 +42,8 @@ if ((window.innerWidth < 768) || (screen.width < 768)) {
     isMobile = true;
     showTheSinglePage();
 } else if ((window.innerHeight < 750) || (screen.height < 750)) {
-    isMobile = true;
-    showTheSinglePage();
+    // isMobile = true;
+    // showTheSinglePage();
 }
 
 
