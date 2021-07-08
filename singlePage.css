@@ -1243,8 +1243,8 @@ main {
 
 
 
-.projectDiv img,
-.projectDivReverse img {
+.projectDiv video,
+.projectDivReverse video {
     /* display: none; */
     margin: 25px;
     max-width: 500px;
@@ -1934,8 +1934,8 @@ ul {
     margin: 0 auto;
 }
 
-.firstUL>li:nth-child(1)>div:nth-child(1)>img:nth-child(1),
-.firstUL>li:nth-child(2)>div:nth-child(1)>img:nth-child(1) {
+.firstUL>li:nth-child(1)>div:nth-child(1)>video:nth-child(1),
+.firstUL>li:nth-child(2)>div:nth-child(1)>video:nth-child(1) {
     margin: 25px;
     /* top: 10\[; */
     /* top: 10\[x; */

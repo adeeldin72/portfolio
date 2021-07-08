@@ -1206,6 +1206,9 @@ html {
     width: 100%;
     height: 100%;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
     top: 0;
     left: 0;
     background-color: #242f3f;
@@ -1445,8 +1448,8 @@ main {
 
 
 
-.projectDiv img,
-.projectDivReverse img {
+.projectDiv video,
+.projectDivReverse video {
     /* display: none; */
     margin: 25px;
     max-width: 500px;
@@ -2018,8 +2021,8 @@ textarea {
 
 @media only screen and (max-width: 1500px) {
 
-    .projectDiv img,
-    .projectDivReverse img {
+    .projectDiv video,
+    .projectDivReverse video {
 
         width: 25%;
 
@@ -2042,8 +2045,8 @@ textarea {
 
     /* styles.css | http://127.0.0.1:8080/styles.css */
 
-    .projectDiv img,
-    .projectDivReverse img {
+    .projectDiv video,
+    .projectDivReverse video {
         /* margin: 25px; */
         /* width: 50%; */
         /* height: auto; */
@@ -2071,7 +2074,7 @@ textarea {
 
     /* Element | http://127.0.0.1:8080/ */
 
-    .firstUL>li:nth-child(2)>div:nth-child(1)>img:nth-child(1) {
+    .firstUL>li:nth-child(2)>div:nth-child(1)>video:nth-child(1) {
         /* top: 10\[; */
         /* top: 10\[x; */
         position: absolute;
@@ -2109,7 +2112,7 @@ textarea {
 
     /* Element | http://127.0.0.1:8080/ */
 
-    .firstUL>li:nth-child(1)>div:nth-child(1)>img:nth-child(1) {
+    .firstUL>li:nth-child(1)>div:nth-child(1)>video:nth-child(1) {
         position: absolute;
         z-index: 10;
         width: 27%;
@@ -2141,14 +2144,14 @@ textarea {
         bottom: 60%;
     }
 
-    .firstUL>li:nth-child(2)>div:nth-child(1)>img:nth-child(1) {
+    .firstUL>li:nth-child(2)>div:nth-child(1)>video:nth-child(1) {
         width: 30%;
         height: 45%;
         top: -50px;
         right: -50px;
     }
 
-    .firstUL>li:nth-child(1)>div:nth-child(1)>img:nth-child(1) {
+    .firstUL>li:nth-child(1)>div:nth-child(1)>video:nth-child(1) {
 
         width: 30%;
         height: 45%;
@@ -2365,8 +2368,8 @@ textarea {
         margin: 0 auto;
     }
 
-    .firstUL>li:nth-child(1)>div:nth-child(1)>img:nth-child(1),
-    .firstUL>li:nth-child(2)>div:nth-child(1)>img:nth-child(1) {
+    .firstUL>li:nth-child(1)>div:nth-child(1)>video:nth-child(1),
+    .firstUL>li:nth-child(2)>div:nth-child(1)>video:nth-child(1) {
         margin: 25px;
         /* top: 10\[; */
         /* top: 10\[x; */
@@ -2603,8 +2606,8 @@ textarea {
         margin: 0 auto;
     }
 
-    .firstUL>li:nth-child(1)>div:nth-child(1)>img:nth-child(1),
-    .firstUL>li:nth-child(2)>div:nth-child(1)>img:nth-child(1) {
+    .firstUL>li:nth-child(1)>div:nth-child(1)>video:nth-child(1),
+    .firstUL>li:nth-child(2)>div:nth-child(1)>video:nth-child(1) {
         margin: 25px;
         /* top: 10\[; */
         /* top: 10\[x; */
