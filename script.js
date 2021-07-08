@@ -1,4 +1,4 @@
-// AOS.init();
+
 let timer1 = null;
 let display = 0;
 let direction = null;
@@ -6,9 +6,6 @@ let tabActive = false;
 let showSinglePage = false;
 let showingSinglePage = true;
 let desktopWarning = false;
-// // When the user scrolls down 20px from the top of the document, show the button
-// window.onscroll = function () { scrollFunction() };
-// let headPosition = 0, brainPosition = 0, skullPosition = 0, currentScroll = 0;
 
 
 
@@ -50,13 +47,6 @@ if ((window.innerWidth < 768) || (screen.width < 768)) {
     showTheSinglePage();
 }
 
-
-
-// window.addEventListener('resize', function () {
-//     if (!isMobile) {
-//         window.location.reload();
-//     }
-// });
 
 
 window.onbeforeunload = function () {
@@ -221,30 +211,6 @@ function displayPage() {
     })
     resetPage();
 
-    // // set all pages to blank
-    // document.querySelector('.firstContainer').style.display = 'none';
-    // document.querySelector('.secondContainer').style.display = 'none';
-    // document.querySelector('.thirdContainer').style.display = 'none';
-    // document.querySelector('.fourthContainer').style.display = 'none';
-
-    // document.querySelector(".desktopAlert").style.display = "none";
-
-    // // set all page dots to blank
-    // document.querySelector('#firstPageDot').innerHTML = '<i class="far fa-circle"></i>';
-    // document.querySelector('#secondPageDot').innerHTML = '<i class="far fa-circle"></i>';
-    // document.querySelector('#thirdPageDot').innerHTML = '<i class="far fa-circle"></i>';
-    // document.querySelector('#fourthPageDot').innerHTML = '<i class="far fa-circle"></i>';
-
-
-    // document.querySelector("#firstProjectGroup").classList.add('isHidden');
-    // document.querySelector("#secondProjectGroup").classList.add('isHidden');
-    // document.querySelector("#thirdProjectGroup").classList.add('isHidden');
-
-    // document.querySelector('#firstThirdPageDot').innerHTML = '<i class="far fa-circle"></i>';
-    // document.querySelector('#secondThirdPageDot').innerHTML = '<i class="far fa-circle"></i>';
-    // document.querySelector('#thirdThirdPageDot').innerHTML = '<i class="far fa-circle"></i>';
-
-
     // display proper page
     if (display === 0) { //page1
         document.querySelector('.firstContainer').style.display = 'block';
@@ -324,7 +290,7 @@ function displaySinglePage() {
 
 
 function showTheSinglePage() {
-    console.log('show the single page')
+
     showSinglePage = true;
 
     const secondFunction = async () => {
@@ -339,8 +305,7 @@ function showTheSinglePage() {
         displaySinglePage();
     }
     secondFunction();
-    // resetPage();
-    // $('link[href="styles.css"]').attr('href', 'singlePage.css');
+
 
 
 }
@@ -388,31 +353,4 @@ window.addEventListener('load', function () {
     });
 
 });
-
-// function checkVisible(elm, eval) {
-//     eval = eval || "visible";
-//     var vpH = $(window).height(), // Viewport Height
-//         st = $(window).scrollTop(), // Scroll Top
-//         y = $(elm).offset().top,
-//         elementHeight = $(elm).height();
-
-//     if (eval == "visible") return ((y < (vpH + st)) && (y > (st - elementHeight)));
-//     if (eval == "above") return ((y < (vpH + st)));
-// }
-
-// let pos = { top: 0, left: 0, x: 0, y: 0 };
-
-// const mouseDownHandler = function (e) {
-//     pos = {
-//         // The current scroll 
-//         left: ele.scrollLeft,
-//         top: ele.scrollTop,
-//         // Get the current mouse position
-//         x: e.clientX,
-//         y: e.clientY,
-//     };
-
-//     document.addEventListener('mousemove', mouseMoveHandler);
-//     document.addEventListener('mouseup', mouseUpHandler);
-// };
 
