@@ -5,6 +5,7 @@ let direction = null;
 let tabActive = false;
 let showSinglePage = false;
 let showingSinglePage = true;
+let desktopWarning = false;
 // // When the user scrolls down 20px from the top of the document, show the button
 // window.onscroll = function () { scrollFunction() };
 // let headPosition = 0, brainPosition = 0, skullPosition = 0, currentScroll = 0;
@@ -33,6 +34,7 @@ let isMobile = false; //initiate as false
 if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     if (screen.width < 1000 && screen.height < 1000) {
         isMobile = true;
+        desktopWarning = true;
         showTheSinglePage();
     }
 
@@ -40,10 +42,12 @@ if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.u
 
 if ((window.innerWidth < 768) || (screen.width < 768)) {
     isMobile = true;
+    desktopWarning = true;
     showTheSinglePage();
 } else if ((window.innerHeight < 750) || (screen.height < 750)) {
-    // isMobile = true;
-    // showTheSinglePage();
+    isMobile = true;
+    desktopWarning = true;
+    showTheSinglePage();
 }
 
 
@@ -347,7 +351,12 @@ function displaySinglePage() {
     document.querySelector("#firstProjectGroup").classList.remove('isHidden');
     document.querySelector("#secondProjectGroup").classList.remove('isHidden');
     document.querySelector("#thirdProjectGroup").classList.remove('isHidden');
-    document.querySelector(".desktopAlert").style.display = "block";
+
+    if (desktopWarning) {
+        document.querySelector(".desktopAlert").style.display = "block";
+    } else {
+        document.querySelector(".desktopAlert").style.display = "none";
+    }
 }
 
 

@@ -1613,9 +1613,20 @@ canvas {
 
 }
 
-.desktopAlert p,
 .desktopAlert {
-    display: none;
+    padding: 25px;
+    text-align: center;
+    font-size: calc(30px + (50 - 30) * ((100vw - 280px) / (1800 - 280)));
+    animation: heartbeat 7s infinite;
+    text-transform: uppercase;
+    background-color: #FFC7C7;
+    /* display: none; */
+
+}
+
+.desktopAlert p {
+    margin: 0 auto;
+    width: 75%;
 }
 
 input[type=text],
