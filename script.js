@@ -63,12 +63,11 @@ window.onbeforeunload = function () {
     window.scrollTo(0, 0);
 }
 
-
 document.addEventListener('touchstart', handleTouchStart, false);
 document.addEventListener('touchmove', handleTouchMove, false);
 
-var xDown = null;
-var yDown = null;
+let xDown = null;
+let yDown = null;
 
 function getTouches(evt) {
     return evt.touches ||             // browser API
@@ -137,6 +136,7 @@ function handleTouchMove(evt) {
     yDown = null;
 };
 
+
 //if do not show single Page
 
 if ((window.innerWidth >= 768) && (screen.width >= 768) && (!isMobile)) {
@@ -193,43 +193,6 @@ if ((window.innerWidth >= 768) && (screen.width >= 768) && (!isMobile)) {
 
 
 
-$(window).on('wheel', function (event) {
-    if (!showSinglePage) {
-        if ((((window.innerHeight + window.scrollY) >= document.body.offsetHeight)) && (((window.innerWidth) >= 768)) && (((screen.width) >= 768)) && (!isMobile)) {
-            // you're at the bottom of the page
-            if (timer1 !== null) {
-                // console.log('i stopped')
-                document.querySelector('.loadingGif').style.display = 'block';
-                if (event.originalEvent.wheelDelta >= 0) {
-                    //scroll up
-                    direction = false;
-                }
-                else {
-                    //scroll down
-                    direction = true;
-                }
-                clearTimeout(timer1);
-            }
-            timer1 = setTimeout(function () {
-                // do something
-                if (direction) {
-                    display++;
-                } else {
-                    display--;
-                    if (display === 4) {
-                        display = 2;
-                    }
-
-                }
-                document.querySelector('.loadingGif').style.display = 'none';
-                displayPage();
-            }, 150);
-
-        } else {
-            displaySinglePage();
-        }
-    }
-});
 
 
 
@@ -383,7 +346,48 @@ function showTheSinglePage() {
 }
 
 
+$(window).on("load", function () {
+    $(".loader-wrapper").fadeOut("slow");
+    $('html').css('pointer-events', 'all');
+    $(window).on('wheel', function (event) {
+        if (!showSinglePage) {
+            if ((((window.innerHeight + window.scrollY) >= document.body.offsetHeight)) && (((window.innerWidth) >= 768)) && (((screen.width) >= 768)) && (!isMobile)) {
+                // you're at the bottom of the page
+                if (timer1 !== null) {
+                    // console.log('i stopped')
+                    document.querySelector('.loadingGif').style.display = 'block';
+                    if (event.originalEvent.wheelDelta >= 0) {
+                        //scroll up
+                        direction = false;
+                    }
+                    else {
+                        //scroll down
+                        direction = true;
+                    }
+                    clearTimeout(timer1);
+                }
+                timer1 = setTimeout(function () {
+                    // do something
+                    if (direction) {
+                        display++;
+                    } else {
+                        display--;
+                        if (display === 4) {
+                            display = 2;
+                        }
 
+                    }
+                    document.querySelector('.loadingGif').style.display = 'none';
+                    displayPage();
+                }, 150);
+
+            } else {
+                displaySinglePage();
+            }
+        }
+    });
+
+});
 
 // function checkVisible(elm, eval) {
 //     eval = eval || "visible";
