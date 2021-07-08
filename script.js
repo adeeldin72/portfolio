@@ -41,7 +41,12 @@ if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.u
 if ((window.innerWidth < 768) || (screen.width < 768)) {
     isMobile = true;
     showTheSinglePage();
+} else if ((window.innerHeight < 750) || (screen.height < 750)) {
+    isMobile = true;
+    showTheSinglePage();
 }
+
+
 
 // window.addEventListener('resize', function () {
 //     if (!isMobile) {
