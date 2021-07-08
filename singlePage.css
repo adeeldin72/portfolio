@@ -1388,6 +1388,10 @@ footer {
 
 }
 
+i {
+    font-display: swap;
+}
+
 .skillLI {
     padding: 0px;
     display: flex;

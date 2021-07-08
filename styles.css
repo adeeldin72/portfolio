@@ -1464,6 +1464,10 @@ footer {
 
 }
 
+i {
+    font-display: swap;
+}
+
 .projectDiv a:hover,
 .projectDivReverse a:hover {
     color: black;
