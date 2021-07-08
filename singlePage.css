@@ -43,6 +43,7 @@ hr {
 }
 
 pre {
+    font-display: swap;
     font-family: monospace, monospace;
     font-size: 1em
 }
@@ -71,6 +72,7 @@ strong {
 code,
 kbd,
 samp {
+    font-display: swap;
     font-family: monospace, monospace;
     font-size: 1em
 }
@@ -127,6 +129,7 @@ input,
 optgroup,
 select,
 textarea {
+    font-display: swap;
     font-family: sans-serif;
     font-size: 100%;
     line-height: 1.15;
@@ -314,6 +317,7 @@ h1,
 h2,
 h3 {
 
+    font-display: swap;
     font-family: 'Rubik', sans-serif;
     color: white;
     text-transform: uppercase;
@@ -879,6 +883,7 @@ main {
 }
 
 html {
+    font-display: swap;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -1287,6 +1292,7 @@ footer {
 
 
 .projectTitle {
+    font-display: swap;
     font-family: 'Black Ops One', cursive;
     color: white;
     text-transform: uppercase;
@@ -1298,6 +1304,7 @@ footer {
 .elementsUsed {
     margin-top: 0px;
     text-transform: uppercase;
+    font-display: swap;
     font-family: 'Lato', sans-serif;
     color: #F6F6F6;
     font-size: 1.25rem;
@@ -1310,6 +1317,7 @@ footer {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
+    font-display: swap;
     font-family: Arial;
     color: #ffffff;
     font-size: 1rem;
@@ -1469,6 +1477,7 @@ ul {
 .scoreBox {
     position: absolute;
     color: white;
+    font-display: swap;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     margin: 20px;
