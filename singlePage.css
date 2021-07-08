@@ -1988,6 +1988,20 @@ ul {
 
 }
 
+
+@media only screen and (max-width: 1300px) {
+
+    .skillLI:hover p {
+        display: block;
+        font-size: 15px;
+        position: absolute;
+        bottom: -100%;
+    }
+
+}
+
+
+
 @media only screen and (max-width: 900px) {
 
     .projectDiv,
@@ -2004,10 +2018,5 @@ ul {
 
     }
 
-    .skillLI:hover p {
-        display: block;
-        font-size: 15px;
-        position: absolute;
-        bottom: -100%;
-    }
+
 }
