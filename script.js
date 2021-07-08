@@ -296,13 +296,17 @@ function showTheSinglePage() {
     const secondFunction = async () => {
         const result = await resetPage();
         // do something else here after firstFunction completes
+
         thirdFunction();
     }
 
     const thirdFunction = async () => {
+
         const result = await $('link[href="styles.css"]').attr('href', 'singlePage.css');
-        // do something else here after firstFunction completes       
+        // do something else here after firstFunction completes   
         displaySinglePage();
+
+
     }
     secondFunction();
 
