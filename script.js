@@ -22,7 +22,7 @@ function turnOffStars() {
     console.log('stars off'
     );
     document.querySelector('.firstContainer').style.backgroundImage = "url('./images/staticBackground.png')";
-    document.querySelector('.secondContainer').style.backgroundImage = "url('./images/staticBackground2.png')";
+    document.querySelector('.secondContainer').style.backgroundImage = "url('./images/static2Background.png')";
     document.querySelector('#starsButton').onclick = () => displayStars();
     document.querySelector('#starsButton').textContent = 'Turn On Stars';
 }
