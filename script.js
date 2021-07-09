@@ -318,6 +318,16 @@ function showTheSinglePage() {
 window.addEventListener('load', function () {
     $(".loader-wrapper").fadeOut("slow");
     $('html').css('pointer-events', 'all');
+
+    setInterval(function () {
+        if (showSinglePage) {
+            if ($('link[href="singlePage.css"]')[0] === undefined) {
+                displaySinglePage();
+            }
+
+        }
+    }, 2000);
+
     $(window).on('wheel', function (event) {
         if (!showSinglePage) {
             if ((((window.innerHeight + window.scrollY) >= document.body.offsetHeight)) && (((window.innerWidth) >= 768)) && (((screen.width) >= 768)) && (!isMobile)) {
