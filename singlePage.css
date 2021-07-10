@@ -1437,6 +1437,10 @@ i {
     animation: animatedBackground 10s linear infinite alternate;
 }
 
+.projectDivReverse a:hover {
+    border-color: #3498db;
+}
+
 ul {
     margin: 10px 0px;
     padding: 0px;
