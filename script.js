@@ -318,6 +318,7 @@ function showTheSinglePage() {
 window.addEventListener('load', function () {
     $(".loader-wrapper").fadeOut("slow");
     $('html').css('pointer-events', 'all');
+    document.querySelector('html').style.overflowY = 'visible';
 
     setInterval(function () {
         if (showSinglePage) {

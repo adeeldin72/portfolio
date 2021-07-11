@@ -584,10 +584,14 @@ a {
     animation: bounce-in-top 1.1s both;
 }
 
+html {
+    overflow-y: hidden;
+}
+
 .loader-wrapper {
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     color: white;

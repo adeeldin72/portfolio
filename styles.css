@@ -1123,7 +1123,7 @@ html {
 .loader-wrapper {
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     color: white;
@@ -1144,6 +1144,10 @@ html {
     border: 4px solid #Fff;
     animation: loader 2s infinite ease;
     z-index: 200;
+}
+
+html {
+    overflow-y: hidden;
 }
 
 .loader-inner {
