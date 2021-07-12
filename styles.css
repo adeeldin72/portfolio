@@ -1618,7 +1618,7 @@ canvas {
 
 
     height: 100vh;
-
+    height: -webkit-fill-available;
 
 
     background: black;
