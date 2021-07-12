@@ -404,6 +404,7 @@ h3 {
 
     height: 100vh;
 
+    height: -webkit-fill-available;
 
     position: fixed;
     /* z-index: 20; */
