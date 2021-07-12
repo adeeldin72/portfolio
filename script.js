@@ -36,6 +36,11 @@ if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.u
     }
 
 }
+if (/iPad/i.test(navigator.userAgent)) {
+    document.querySelector('.fourthContainer').style.height = "-webkit-fill-available";
+    document.querySelector('.currentThirdPageDisplay').style.height = "-webkit-fill-available";
+
+}
 
 if ((window.innerWidth < 768) || (screen.width < 768)) {
     isMobile = true;
